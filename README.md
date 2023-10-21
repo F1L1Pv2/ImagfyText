@@ -4,7 +4,7 @@
 # Compilation
 
 ## Linux
-`g++ -o ImagfyText.cpp ImagfyText.cpp`
+`g++ -o ImagfyText ImagfyText.cpp`
 
 ## Windows
 
