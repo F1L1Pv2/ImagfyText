@@ -182,13 +182,24 @@ int main(int argc, char** argv)
             out_path << filepath;
 
             if ((flags & BINARY_MODE) != 0) {
-                out_path << ".lol";
+                
+                std::string temp = out_path.str().substr(0, out_path.str().size()-4);
+
+                out_path.str(temp);
+
             }
             else {
                 out_path << ".txt";
             }
             
             std::ofstream write(out_path.str().c_str(), std::ios::binary);
+
+            if (!write.is_open()) {
+                std::stringstream reason;
+                reason << "Couldn't open file " << out_path.str();
+                error(reason.str().c_str());
+                return -1;
+            }
 
             for (unsigned i = 0; i < width * height * 4; i += 1) {
                 char ch = *(img + i);
