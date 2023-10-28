@@ -25,5 +25,8 @@ recomended way is to use vs studio sln file
 ### Here is win64 binary of this utility in its own format
 ![win_64_binary](https://github.com/F1L1Pv2/ImagfyText/blob/main/ImagfyText_win64.exe.png?raw=true)
 
+### Here is win64 binary of this utility in its own format (alpha mode)
+![win_64_binary](https://github.com/F1L1Pv2/ImagfyText/blob/main/ImagfyText_win64_alpha.exe.png?raw=true)
+
 ### Here is linux binary of this utility in its own format
 ![linux_binary](https://github.com/F1L1Pv2/ImagfyText/blob/main/ImagfyText_linux.png?raw=true)
