@@ -22,11 +22,16 @@ recomended way is to use vs studio sln file
 [Note]:         <filepath> needs to exist
 [Usage]: ImagfyText.exe <mode> <additional params>
 ```
-### Here is win64 binary of this utility in its own format
+### Here is binary of this utility in its own format
+
+#### Win64
 ![win_64_binary](https://github.com/F1L1Pv2/ImagfyText/blob/main/ImagfyText_win64.exe.png?raw=true)
 
-### Here is win64 binary of this utility in its own format (alpha mode)
+#### Win64 (alpha mode)
 ![win_64_binary](https://github.com/F1L1Pv2/ImagfyText/blob/main/ImagfyText_win64_alpha.exe.png?raw=true)
 
-### Here is linux binary of this utility in its own format
+#### GNU/Linux ELF
 ![linux_binary](https://github.com/F1L1Pv2/ImagfyText/blob/main/ImagfyText_linux.png?raw=true)
+
+#### GNU/Linux ELF (alpha mode)
+![linux_binary](https://github.com/F1L1Pv2/ImagfyText/blob/main/ImagfyText_linux_alpha.png?raw=true)
