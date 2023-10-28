@@ -11,7 +11,7 @@
 #include <map>
 #include <string>
 
-static enum StringValue {
+enum StringValue {
     OutShow,
     OutWrite,
     OnAlpha,
