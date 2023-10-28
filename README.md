@@ -13,14 +13,27 @@ recomended way is to use vs studio sln file
 # Usage
 ```bash
 ./ImagfyText
-[Usage]: Modes: "encode", "decode"
-[Usage]:        "encode" + <filepath> + <image_width>
-[Usage]:        "decode" + <filepath>
-[Usage]: Decode flags: "binary", "out_write"
-[Usage]:               "binary" - file will be interpreted as bytecode rather than ascii characters (file wont be printed but it will be saved on drive)
-[Usage]:               "out_write" - file output will be saved into file
-[Note]:         <filepath> needs to exist
-[Usage]: ImagfyText.exe <mode> <additional params>
+.___                        _____       ___________              __
+|   | _____ _____     _____/ ____\__.__.\__    ___/___ ___  ____/  |_
+|   |/     \\__  \   / ___\   __<   |  |  |    |_/ __ \\  \/  /\   __\
+|   |  Y Y  \/ __ \_/ /_/  >  |  \___  |  |    |\  ___/ >    <  |  |
+|___|__|_|  (____  /\___  /|__|  / ____|  |____| \___  >__/\_ \ |__|
+          \/     \//_____/       \/                  \/      \/
+                                                      Made By: F1L1Pv2
+[Usage] Modes "encode", "decode"
+[Usage]       "encode" + <filepath> + <image_width>
+[Usage]       "decode" + <filepath> + <decode_flags>
+[Note]        <filepath> needs to exist
+[Usage] Encode flags: "background_img"
+[Usage]               "background_img" - this will be an image data that will be written on
+[Note]                after "background_img" you need to pass additional filepath
+[Usage] Decode flags: "out_show", "out_write"
+[Usage]               "out_show" - file output will be printed into stdout
+[Usage]               "out_write" - file output will be saved into file
+[Usage] Global Params: "alpha"
+[Usage]                "alpha" - will save bytes only in alpha channel
+[Usage] ImagfyText.exe <mode> <additional params> <global params>
+[Error] Mode wasn't provided
 ```
 ### Here is binary of this utility in its own format
 
